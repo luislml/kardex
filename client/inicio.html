@@ -6,51 +6,56 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="/">home</a></li>
         <li><a href="/registrar">Registrar</a></li>
+        <li><a href="/buscador">Buscar Estudiante</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+         <li><a href="/">home</a></li>
+        <li><a href="/registrar">Registrar</a></li>
+        <li><a href="/buscador">Buscar Estudiante</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+
   {{>Template.dynamic template=baner}}
   {{>Template.dynamic template=content}}
-
- 
 
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
+          <h5 class="white-text">Contactenos</h5>
+          <p class="grey-text text-lighten-4">Dirección:</p>
+          <p class="grey-text text-lighten-4">Telefono:</p>
+          <p class="grey-text text-lighten-4">Email</p>
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">WhatsApp:</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="#!">Celular Facultad: (+591) 70474204</a></li>
+            <li><a class="white-text" href="#!">Celular Centro Estudiantes: (+591) 70474204</a></li>
+            
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
+          <h5 class="white-text">Buscanos en:</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+             <li class="waves-effect waves-light btn-floating social facebook"><a href="http://www.facebook.com/facultad.medicinauatf" target="_blank" data-placement="bottom" rel="tooltip" title="Facebook">Facebook</a></li>
+              <li class="twitter"><a href="http://www.twitter.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Twitter">Twitter</a></li>
+              <li class="linkedin"><a href="http://www.linkedin.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Linkedin">Linkedin</a></li>
+              <li class="youtube"><a href="http://www.linkedin.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Youtube">Youtube</a></li>
+              <li class="googleplus"><a href="http://www.linkedin.com/" target="_blank" data-placement="bottom" rel="tooltip" title="Google+">Google+</a></li>
+               <li><a class="waves-effect waves-light btn-floating social facebook"><i class="fa fa-facebook"></i> Sign in with facebook</a></li>
           </ul>
+         
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+    FACULDAD DE MEDICINA . <a class="brown-text text-lighten-3" href="http://med.uatf.edu.bo/med/">  med.uatf.edu.bo</a>
       </div>
     </div>
   </footer>
@@ -60,20 +65,21 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
-
 </template>
+
+<!--baner-->
 <template name="baner">
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
+        <h1 class="header center teal-text text-lighten-2">REGISTRO DE  KARDEX ACADEMICO</h1>
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Faculadad de Medicina</h5>
+         
         </div>
         <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Reportes</a>
         </div>
         <br><br>
 
@@ -91,27 +97,27 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+            <h5 class="center">Acelera la Busqueda de Documentos</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p class="light">Usted Podra realizar la busqueda y registro de documentos de una manera mas rapida y segura.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
+            <h5 class="center">Usuario</h5>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p class="light">Los usuarios de esta pajina tendran acceso a documentos dependiendo de los privilegios de usuario</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
+            <h5 class="center">Facil de Trabajar</h5>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p class="light">Se proporciono guia de usuario del sistema dependiendo a los privilegios</p>
           </div>
         </div>
       </div>
@@ -122,19 +128,20 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+          <h5 class="header col s12 light">Plataforma de Digitalizacion de Kardex Academico</h5>
         </div>
       </div>
     </div>
     <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 </template>
+
+
+
+
+
+
 <template name="contenido">
-   
-
-
-  
-
   <div class="container">
     <div class="section">
 
